@@ -19,6 +19,6 @@
   </div>
 
   <script type="coffee">
-    @days_ago = 5
+    @days_ago = 2
   </script>
 </tagging>
