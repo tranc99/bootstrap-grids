@@ -6,6 +6,7 @@
     <title>Flickerati by Tomahawk</title>
     <link rel="stylesheet" href="css/lumen.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
+    <script src="http://cdn.jsdelivr.net/riot/2.6/riot.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -76,6 +77,7 @@
             <h2>All the pobres in Syria</h2>
             <p class="text-muted">
               Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
+              We have been fighting and killing folks in Afganistan for 14 years now. That is so much worse than getting in there and ending it in 2-3 years and being done with it. Nope we have to fight a "moral' fight and drag this on for the familys, children etc.... of that country for 14 years. THAT is more immoral.
             </p>
 
             <div class="row text-muted">
@@ -116,6 +118,7 @@
             <h2>Lorem Ipsum Dolor. Folks want to pick</h2>
             <p class="text-muted">
               War is moral if someone that has the capability and intent to kill you attacks you and you fight back.  Discussions of moral high ground used to be military doctrine.
+              War can be less evil but war is evil and if we enter into it all efforts to end it as fast as possible should be used, even if that means using bombs across the entire country like we did to Germany or Japan. There is nothing moral about any of it so just get it over as fast as possible. Crush the enemy and end it. Do not try to make it a moral endevor. It cant be done.
             </p>
             <div class="row text-muted">
               <div class="col-sm-4">
@@ -143,20 +146,41 @@
             <strong>Suteres</strong>
             <span class="text-muted"> | publes 09/09/2016</span>
             <h2>Clarke did say one</h2>
-            <img src="img/car.jpg" alt="A beautiful car" />
+            <img src="img/car.jpg" alt="A beautiful car" id="car-img" />
+            <p class="text-muted">
+              Like treating prisoners as POWs, or respecting age-old rules
+            </p>
+            <div class="row text-muted">
+              <div class="col-sm-4">
+                <div class="glyphicon glyphicon-time">
+                  3 days ago
+                </div>
+              </div>
+              <div class="col-sm-8">
+                <div class="glyphicon glyphicon-tags">
+                  <strong>
+                    <a href="#">lorem</a>
+                    | ,
+                    <a href="#">lorem</a>
+                    | ,
+                    <a href="#">lorem</a>
+                  </strong>
+                </div>
+              </div>
+            </div>
           </article>
           <!-- end first main column -->
         </div>
 
         <div class="col-sm-4" id="column2">
           <h5 class="small-dark-title">A la une</h5>
-
+          <tagging></tagging>
           <!-- END 2ND MAIN COLUMN -->
         </div>
 
         <div class="col-sm-3" id="column2">
           <h5 class="small-dark-title">A la une</h5>
-
+          <tagging></tagging>
           <!-- END 3RD MAIN COLUMN -->
         </div>
 
@@ -166,6 +190,9 @@
     </div>
 
 
-
+    <script src="tagging.js"></script>
+    <script>
+      riot.mount("*")
+    </script>
   </body>
 </html>
