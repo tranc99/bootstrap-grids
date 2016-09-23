@@ -24,3 +24,15 @@ img:hover {
 #car-img {
   margin-bottom: 10px;
 }
+#column2 {
+  border: 1px solid #ccc;
+  border-top: none;
+  border-bottom: none;
+}
+#column2 .bg-grey {
+  background: #f5f5f5;
+  padding: 0 10px 10px;
+}
+cleanupimg {
+  max-width: 20%;
+}
