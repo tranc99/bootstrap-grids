@@ -1,7 +1,7 @@
 <smallmedia>
   <div class="media">
     <a href="#" class="pull-left">
-      <img id="cleanupimg" class="img-responsive img-rounded" src="http://placehold.it/60x60" alt="The Neutron Wars">
+      <img id="cleanupimg" class="img-responsive img-cicle" src="http://placehold.it/60x60" alt="The Neutron Wars">
     </a>
     <div class="media-body">
       <h4 class="media-heading">Amos Moses was a cajun</h4>
