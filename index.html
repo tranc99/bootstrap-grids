@@ -6,7 +6,8 @@
     <title>Flickerati by Tomahawk</title>
     <link rel="stylesheet" href="css/lumen.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
-    <script src="http://cdn.jsdelivr.net/riot/2.6/riot.min.js"></script>
+    <!-- <script src="http://cdn.jsdelivr.net/riot/2.6/riot.min.js"></script> -->
+    <script src="js/riot.min.js/riot.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -198,8 +199,27 @@
 
         <!-- END ROW WITH 3 MAIN COLUMNS -->
         <br>
-        <footer id="footing">
-        </footer>
+
+        <div class="row footer bottommost">
+          <div class="col-sm-12">
+            <hr id="foot-border">
+          </div>
+
+          <footerlist></footerlist>
+          <footerlist></footerlist>
+          <footerlist></footerlist>
+          <footerlist></footerlist>
+          <footerlist></footerlist>
+          <footerlist></footerlist>
+
+
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 text-right text-muted coprighted">
+            Copyright Tendai Mutunhire 2016
+          </div>
+        </div>
       </div>
       <!-- END CONTAINER -->
     </div>
@@ -207,9 +227,8 @@
 
     <script src="tagging.js"></script>
     <script src="smallmedia.js"></script>
-    <script src="acolumn.js">
-
-    </script>
+    <script src="acolumn.js"></script>
+    <script src="footerlist.js"></script>
     <script src="mountindex.js">
 
     </script>
